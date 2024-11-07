@@ -5,7 +5,7 @@ class APIFilters {
   }
 
   search() {
-    const keywor = this.querySrt.keyword
+    const keyword = this.querySrt.keyword
       ? {
           name: {
             $regex: this.querySrt.keyword,
