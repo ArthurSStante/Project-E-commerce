@@ -1,5 +1,5 @@
 export default (err, req, res, next) => {
-  let erro = {
+  let error = {
     statusCode: err.statusCode || 500,
     message: err?.message || "Error Interno do Servidor",
   };
