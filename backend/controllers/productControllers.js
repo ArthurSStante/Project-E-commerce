@@ -7,7 +7,7 @@ export const getProducts = async (req, res) => {
   const resPerPage = 4;
   const apiFilters = new APIFilters(Product, req.query).search().filters();
 
-  let product = await apiFilters.query;
+  let products = await apiFilters.query;
   let filteredProductsCount = products.length;
 
   apiFilters.pagination(resPerPage);
