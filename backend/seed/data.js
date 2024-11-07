@@ -1,6 +1,6 @@
 export default [
     {
-      nam: "Smartphone Samsung Galaxy S23 Ultra",
+      name: "Smartphone Samsung Galaxy S23 Ultra",
       price: 4299.99,
       description:
         'Smartphone com tela de 6.8" AMOLED, câmera de 200MP e 12GB de RAM.',

@@ -5,7 +5,7 @@ import product from "../models/product.js";
 
 const seedProducts = async () => {
   try {
-    await mongoose.connec(
+    await mongoose.connect(
       "mongodb+srv://Art:354041@cluster0.d5c3u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     );
 
