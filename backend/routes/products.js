@@ -7,7 +7,7 @@ import {
   updateProductbyID,
 } from "../controllers/productControllers.js";
 
-const router = express.Route();
+const router = express.Router();
 
 //Rota para obter todos os produtos
 router.route("/products").get(getProducts);
