@@ -19,7 +19,7 @@ app.use("/api/v1", productRoutes);
 //Utilizando o middleware de tratamento de erros
 app.use(errorMiddleware);
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.POR, () => {
   console.log("Servidor iniciado na PORTA: 3000");
 });
 
