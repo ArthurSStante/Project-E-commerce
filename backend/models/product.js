@@ -1,20 +1,20 @@
 import mongoose from "mongoose";
 
-const productsSchema = new mongoose.Schema(
+const productSchema = new mongoose.Schema(
   {
     name: {
       type: String,
-      require: [true, "Por favor, insira o nome do produto"],
-      maxLength: [200, "O nome do produto não pode ultrapassar 200 caracteres"],
+      required: [true, "Por favor insira o nome do produto"],
+      maxLength: [200, "O nome do produto não pode exceder 200 caracteres"],
     },
     price: {
       type: Number,
-      require: [true, "Por favor, insira o preço do produto"],
-      maxLength: [5, "O nome do produto não pode ultrapassar 5 dígitos"],
+      required: [true, "Por favor insira o preço do produto"],
+      maxLength: [5, "O preço do produto não pode exceder 5 dígitos"],
     },
     description: {
       type: String,
-      require: [true, "Por favor, insira a descrição do produto"],
+      required: [true, "Por favor insira a descrição do produto"],
     },
     ratings: {
       type: Number,
@@ -24,17 +24,17 @@ const productsSchema = new mongoose.Schema(
       {
         public_id: {
           type: String,
-          require: true,
+          required: true,
         },
         url: {
           type: String,
-          require: true,
+          required: true,
         },
       },
     ],
     category: {
       type: String,
-      require: [true, "Por favor, insira a categoria do produto"],
+      required: [true, "Por favor, insira a categoria do produto"],
       enum: {
         values: [
           "Eletrônicos",
@@ -53,11 +53,11 @@ const productsSchema = new mongoose.Schema(
     },
     seller: {
       type: String,
-      require: [true, "Por favor, insira o vendedor do produto"],
+      required: [true, "Por favor, insira o vendedor do produto"],
     },
     stock: {
       type: Number,
-      require: [true, "Por favor, insira o estoque do produto"],
+      required: [true, "Por favor, insira o estoque do produto"],
     },
     numOfReviews: {
       type: Number,
@@ -68,25 +68,25 @@ const productsSchema = new mongoose.Schema(
         user: {
           type: mongoose.Schema.Types.ObjectId,
           ref: "User",
-          require: true,
+          required: true,
         },
         rating: {
           type: Number,
-          require: true,
+          required: true,
         },
         comment: {
           type: String,
-          require: true,
+          required: true,
         },
       },
     ],
     user: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
-      require: true,
+      required: false,
     },
   },
   { timestamps: true }
 );
 
-export default mongoose.model("Product", productsSchema);
+export default mongoose.model("Product", productSchema);
