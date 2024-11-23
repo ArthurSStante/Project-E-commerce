@@ -88,4 +88,4 @@ Este projeto é uma aplicação de loja online desenvolvida com uma stack modern
 
 ## 😎 Autor
 
-- [@ArthurSStante](https://avatars.githubusercontent.com/u/106411734?v=4&size=64)
+- [@ArthurSStante](https://github.com/ArthurSStante)
