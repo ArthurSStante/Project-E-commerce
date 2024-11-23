@@ -1,8 +1,8 @@
-# Loja Online - Projeto Full Stack com React, Redux Toolkit, Node.js, Express, MongoDB e Stripe
+# 📋 Loja Online - Shopyy - Loja Online
 
 Este projeto é uma aplicação de loja online desenvolvida com uma stack moderna de tecnologias. O objetivo é proporcionar uma experiência completa de compra virtual, incluindo funcionalidades de gerenciamento de produtos, autenticação de usuários, carrinho de compras e integração com métodos de pagamento.
 
-## Tecnologias Utilizadas
+## 📌 Tecnologias Utilizadas
 
 ### Frontend:
 - **React**: Biblioteca JavaScript para construção da interface de usuário.
@@ -22,7 +22,7 @@ Este projeto é uma aplicação de loja online desenvolvida com uma stack modern
 - **JWT (JSON Web Tokens)**: Para autenticação e gerenciamento de sessões de usuários.
 - **BCrypt**: Para hashing de senhas no backend.
 
-## Funcionalidades Implementadas
+## 💡Funcionalidades Implementadas
 
 1. **Frontend:**
    - Página inicial com produtos destacados.
@@ -44,12 +44,12 @@ Este projeto é uma aplicação de loja online desenvolvida com uma stack modern
 
 ## Como Rodar o Projeto
 
-### Pré-requisitos:
+### ❗Pré-requisitos:
 - Node.js instalado na máquina.
 - MongoDB em execução (localmente ou em um serviço como MongoDB Atlas).
 - Conta no Stripe para obter suas chaves de API.
 
-### Passos:
+### 🎊 Passos:
 1. Clone este repositório:
    ```bash
    git clone https://github.com/usuario/nome-do-repositorio.git
@@ -85,3 +85,7 @@ Este projeto é uma aplicação de loja online desenvolvida com uma stack modern
    npm start
    ```
 6. Acesse o projeto no navegador em http://localhost:3000
+
+## 😎 Autor
+
+- [@ArthurSStante](https://github.com/ArthurSStante)
