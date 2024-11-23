@@ -90,3 +90,12 @@ Este projeto é uma aplicação de loja online desenvolvida com uma stack modern
 ## 😎 Autor
 
 - [@ArthurSStante](https://github.com/ArthurSStante)
+<div style="border-radius: 8px; background: #f4f4f4; padding: 10px;">
+<pre>
+<code>
+git clone https://github.com/usuario/nome-do-repositorio.git
+cd nome-do-repositorio
+npm install
+</code>
+</pre>
+</div>
