@@ -42,7 +42,7 @@ Este projeto é uma aplicação de loja online desenvolvida com uma stack modern
    - Estruturação do banco para suportar usuários, produtos e pedidos.
    - Operações de CRUD com Mongoose.
 
-## Como Rodar o Projeto
+## 🤔 Como Rodar o Projeto
 
 ### ❗Pré-requisitos:
 - Node.js instalado na máquina.
