@@ -74,6 +74,7 @@ Este projeto é uma aplicação de loja online desenvolvida com uma stack modern
    STRIPE_SECRET_KEY=sua-chave-secreta-do-stripe
    ```
 5. Inicie o servidor e o cliente:
+   
    No backend:
    ```bash
    cd backend
@@ -84,7 +85,7 @@ Este projeto é uma aplicação de loja online desenvolvida com uma stack modern
    cd frontend
    npm start
    ```
-6. Acesse o projeto no navegador em http://localhost:3000
+7. Acesse o projeto no navegador em http://localhost:3000
 
 ## 😎 Autor
 
